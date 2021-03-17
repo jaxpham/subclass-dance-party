@@ -2,20 +2,31 @@ body, html{
   height:100%;
 }
 body{
+  background-image: url("src/ice/ice1.png");
   margin: 0px;
-  background-color:#444;
+  /* background-color:#444; */
   font-size: 18px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
+
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
 .title, .addDancerButton{
+
   padding:5px 12px;
   float:right;
+  color: #4cce9f;
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #bef1f6;
+
 }
 .title{
   background-color: #777;
@@ -25,3 +36,6 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+
+
